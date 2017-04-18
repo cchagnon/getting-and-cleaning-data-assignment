@@ -5,7 +5,42 @@ Charles A. Chagnon
 
 #### Codebook
 
-A rundown of the steps taken in the file run\_analysis.R. See [README.md](README.md) for further detail on the source data used.
+See [README.md](README.md) for further detail on the source data used.
+
+**Primary Record Identifiers**
+- subject: The ID of the test subject
+
+-   activity: The type of activity performed when the corresponding measurements were taken
+
+**Activity Labels**
+1. WALKING: Subject was walking during the measurement.
+
+1.  WALKING\_UPSTAIRS: Subject was walking up a staircase during the measurement.
+
+2.  WALKING\_DOWNSTAIRS: Subject was walking down a staircase during the measurement.
+
+3.  SITTING: Subject was sitting during the measurement.
+
+4.  STANDING: Subject was standing during the measurement.
+
+5.  LAYING: Subject was laying down during the measurement.
+
+**Measures**
+561 columns of data as described above: \* tBodyAcc-mean()-X
+
+-   tBodyAcc-mean()-Y
+
+-   tBodyAcc-mean()-Z
+
+-   tBodyAcc-std()-X
+
+-   tBodyAcc-std()-Y
+
+-   etc.
+
+#### Solution
+
+A rundown of the steps taken in the file run\_analysis.R.
 
 ###### Download and unzip the data for the project
 
