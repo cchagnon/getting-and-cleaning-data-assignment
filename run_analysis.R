@@ -9,7 +9,7 @@ library(dplyr)
 
 ## Download and unzip the data for the project
 srcURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(srcURL, "C:\\Users\\Charles\\Documents\\RStudio\\gcd-assignment\\uci-har.zip")
+download.file(srcURL, "< working directory  > uci-har.zip")
 unzip(zipfile="uci-har.zip")
 
 # - Read the results data

@@ -7,6 +7,21 @@ Charles A. Chagnon
 
 See [README.md](README.md) for further detail on the source data used.
 
+**Source Data Files**
+- 'features\_info.txt': Shows information about the variables used on the feature vector.
+
+-   'features.txt': List of all features.
+
+-   'activity\_labels.txt': Links the class labels with their activity name.
+
+-   'train/X\_train.txt': Training set.
+
+-   'train/y\_train.txt': Training labels.
+
+-   'test/X\_test.txt': Test set.
+
+-   'test/y\_test.txt': Test labels.
+
 **Primary Record Identifiers**
 - subject: The integer ID of the test subject
 
