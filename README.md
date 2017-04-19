@@ -18,6 +18,6 @@ See [CodeBook.md](CodeBook.md) for further detail on run\_analysis.R
 
 Abstract: Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone (Samsung Galaxy S) with embedded inertial sensors.
 
--   [Dataset Description](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones%3E)
+-   [Dataset Description](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 -   [Data Download](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)

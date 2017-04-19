@@ -3,30 +3,34 @@ Getting And Cleaning Data - Course Project
 Charles A. Chagnon
 2017-04-18
 
-#### Codebook
+### Codebook
 
 See [README.md](README.md) for further detail on the source data used.
 
 **Primary Record Identifiers**
-- subject: The ID of the test subject
+- subject: The integer ID of the test subject
 
--   activity: The type of activity performed when the corresponding measurements were taken
+-   activity: The integer ID of the activity performed when the corresponding measurements were taken
 
 **Activity Labels**
-1. WALKING: Subject was walking during the measurement.
+Indicate that during the measurement:
 
-1.  WALKING\_UPSTAIRS: Subject was walking up a staircase during the measurement.
+1.  WALKING: Subject was walking
 
-2.  WALKING\_DOWNSTAIRS: Subject was walking down a staircase during the measurement.
+2.  WALKING\_UPSTAIRS: Subject was walking up a staircase
 
-3.  SITTING: Subject was sitting during the measurement.
+3.  WALKING\_DOWNSTAIRS: Subject was walking down a staircase
 
-4.  STANDING: Subject was standing during the measurement.
+4.  SITTING: Subject was sitting
 
-5.  LAYING: Subject was laying down during the measurement.
+5.  STANDING: Subject was standing
+
+6.  LAYING: Subject was lying down
 
 **Measures**
-561 columns of data as described above: \* tBodyAcc-mean()-X
+561 columns of data as described above. Floating-point numbers representing 3-axial linear acceleration and angular velocity as measured by a smartphone's accelerometer and gyroscope:
+
+-   tBodyAcc-mean()-X
 
 -   tBodyAcc-mean()-Y
 
@@ -38,7 +42,7 @@ See [README.md](README.md) for further detail on the source data used.
 
 -   etc.
 
-#### Solution
+### Solution
 
 A rundown of the steps taken in the file run\_analysis.R.
 
